@@ -2,7 +2,7 @@
 
 ## Medium Links
 https://medium.com/@tobibabalola21
-**LinkedIn:**
+## LinkedIn
 https://www.linkedin.com/in/tobi-babalola001/
 
 ## Overview
