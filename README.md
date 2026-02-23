@@ -1,25 +1,32 @@
 # FortisAid Cloud Security Engineering Portfolio
 
-**OVERVIEW**
+# OVERVIEW
 
-This repository showcases my hands-on Azure cloud security engineering work aligned with the AZ-500 certification path.
+This repository documents the design and implementation of security controls within a simulated healthcare organisation, FortisAid.
 
-The focus of this portfolio is **practical security architecture, threat reduction, monitoring visibility, and SOC-driven detection engineering** using native Azure security services.
+FortisAid represents a cloud-native environment handling sensitive patient and operational data, requiring strong identity protection, network isolation, workload hardening, telemetry visibility, and rapid threat detection.
 
-Rather than theoretical learning, each lab demonstrates:
+The goal of this portfolio is not to demonstrate isolated lab completion, but to showcase how security controls are layered together to reduce risk across an end-to-end Azure environment.
 
-- Real security control implementation
-- Validation and troubleshooting
-- Architecture reasoning
-- Security outcomes and lessons learned
+Each lab reflects a realistic security engineering decision that contributes to a broader defence-in-depth strategy.
 
- This repository demonstrates my ability to:
-- Design secure Azure architectures
-- Implement defense-in-depth controls
-- Validate telemetry and detection pipelines
-- Reduce attack surface using platform-native security
-- Build SOC detection and response workflows
-Also reflects my growth toward **cloud security engineer and security platform roles**
+# About FortisAid
+
+FortisAid is a fictional healthcare platform used to simulate enterprise cloud security challenges such as:
+
+* Protection of sensitive patient data
+
+* Controlled administrative access to critical workloads
+
+* Reduction of lateral movement across virtual networks
+
+* Secure container deployment pipelines
+
+* Continuous workload monitoring and posture assessment
+
+* Threat detection and automated incident response
+
+ThiS also reflects my growth toward **cloud security engineer and security platform roles**
 Labs use Azure. 
 
 ## Tech Stack
