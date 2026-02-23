@@ -1,6 +1,7 @@
 # FortisAid Cloud Security Engineering Portfolio
 
 **OVERVIEW**
+
 This repository showcases my hands-on Azure cloud security engineering work aligned with the AZ-500 certification path.
 
 The focus of this portfolio is **practical security architecture, threat reduction, monitoring visibility, and SOC-driven detection engineering** using native Azure security services.
