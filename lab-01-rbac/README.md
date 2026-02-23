@@ -1,4 +1,5 @@
 **Lab 01 — Azure RBAC & Least Privilege Enforcement**
+
 **Objectives**
 
 This lab establishes the identity security foundation for the FortisAid environment by implementing Azure Role-Based Access Control (RBAC) and validating least-privilege access boundaries.
