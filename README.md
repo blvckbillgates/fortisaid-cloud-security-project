@@ -26,7 +26,8 @@ FortisAid is a fictional healthcare platform used to simulate enterprise cloud s
 
 * Threat detection and automated incident response
 
-ThiS also reflects my growth toward **cloud security engineer and security platform roles**
+This also reflects my growth toward **cloud security engineer and security platform roles**
+
 Labs use Azure. 
 
 ## Tech Stack
