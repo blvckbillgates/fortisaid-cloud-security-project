@@ -5,21 +5,35 @@ https://medium.com/@tobibabalola21
 ## LinkedIn
 https://www.linkedin.com/in/tobi-babalola001/
 
-## Overview
-This repo showcases 9 AZ-500 labs demonstrating cloud security skills in Azure. Each lab folder includes:  
-- README.md: Objectives, architecture, step-by-step guides, challenges, learnings, extensions.  
-- PDF: Original lab document (e.g., AZ500 LAB 1.pdf).  
-- Screenshots/visuals are in my Medium posts (linked in each README)
-- scripts/: Code/scripts from PDF (e.g., az commands as .ps1 files).  
-- configs/: Config files if applicable (e.g., YAML/JSON).  
+This repository showcases my hands-on Azure cloud security engineering work aligned with the AZ-500 certification path.
 
-Labs use Azure. Reproduce with az CLI/PowerShell.
+The focus of this portfolio is **practical security architecture, threat reduction, monitoring visibility, and SOC-driven detection engineering** using native Azure security services.
+
+Rather than theoretical learning, each lab demonstrates:
+
+- Real security control implementation
+- Validation and troubleshooting
+- Architecture reasoning
+- Security outcomes and lessons learned
+
+This repository reflects my growth toward **cloud security engineer and security platform roles**.
+
+Labs use Azure. 
 
 ## Tech Stack
 - Azure CLI, PowerShell  
 - Bicep/ARM, YAML (Kubernetes)  
 - KQL (Queries)  
-- Azure Portal, Defender, Sentinel  
+- Azure Portal, Defender, Sentinel
+
+  This repository demonstrates my ability to:
+
+- Design secure Azure architectures
+- Implement defense-in-depth controls
+- Validate telemetry and detection pipelines
+- Reduce attack surface using platform-native security
+- Build SOC detection and response workflows
+
 
 ## Lab Index
 
