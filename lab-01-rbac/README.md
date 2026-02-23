@@ -23,8 +23,7 @@ Groups:
 RBAC:  
 - Assign Virtual Machine Contributor → to Service Desk group  
 - Scope: Resource Group FortisAid-Lab  
-
-![Target Architecture](screenshots/target-architecture.png)  
+ 
 
 ## Step-by-Step Guide
 - Portal: Entra ID > Users > New user for each.  
@@ -35,10 +34,7 @@ RBAC:
 - RBAC: Resource groups > FortisAid-Lab > IAM > Add role assignment > Role: Virtual Machine Contributor > Assign to group.  
 
 Verification: az role assignment list --resource-group FortisAid-Lab  
-
-## Challenges & Resolutions
-- Permission sprawl: Groups prevent individual assignments.  
-
+ 
 ## Outcomes
 - Scalable access control.  
 
