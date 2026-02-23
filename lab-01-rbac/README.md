@@ -40,11 +40,12 @@ Resource-level scope was preferred to enforce least privilege.
 
 Assigned a Reader role to a test identity at the resource scope.
 
-   New-AzRoleAssignment `
+  ```powershell
+New-AzRoleAssignment `
   -ObjectId <user-object-id> `
   -RoleDefinitionName Reader `
   -Scope <resource-scope>
-
+```
 
 **Step 3** — Validate Effective Permissions
 
