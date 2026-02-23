@@ -1,9 +1,5 @@
 # FortisAid Cloud Security Engineering Portfolio
 
-## Medium Links
-https://medium.com/@tobibabalola21
-## LinkedIn
-https://www.linkedin.com/in/tobi-babalola001/
 **OVERVIEW**
 This repository showcases my hands-on Azure cloud security engineering work aligned with the AZ-500 certification path.
 
@@ -23,10 +19,6 @@ Rather than theoretical learning, each lab demonstrates:
 - Reduce attack surface using platform-native security
 - Build SOC detection and response workflows
 Also reflects my growth toward **cloud security engineer and security platform roles**
-
-
-
-
 Labs use Azure. 
 
 ## Tech Stack
@@ -50,3 +42,7 @@ Labs use Azure.
 | 09 | Microsoft Sentinel SIEM & SOAR Implementation | Sentinel onboarding, Activity ingestion, detection rules, playbook escalation 
 
  
+## Medium Links
+https://medium.com/@tobibabalola21
+## LinkedIn
+https://www.linkedin.com/in/tobi-babalola001/
