@@ -4,7 +4,7 @@
 https://medium.com/@tobibabalola21
 ## LinkedIn
 https://www.linkedin.com/in/tobi-babalola001/
-
+**OVERVIEW**
 This repository showcases my hands-on Azure cloud security engineering work aligned with the AZ-500 certification path.
 
 The focus of this portfolio is **practical security architecture, threat reduction, monitoring visibility, and SOC-driven detection engineering** using native Azure security services.
@@ -16,7 +16,16 @@ Rather than theoretical learning, each lab demonstrates:
 - Architecture reasoning
 - Security outcomes and lessons learned
 
-This repository reflects my growth toward **cloud security engineer and security platform roles**.
+ This repository demonstrates my ability to:
+- Design secure Azure architectures
+- Implement defense-in-depth controls
+- Validate telemetry and detection pipelines
+- Reduce attack surface using platform-native security
+- Build SOC detection and response workflows
+Also reflects my growth toward **cloud security engineer and security platform roles**
+
+
+
 
 Labs use Azure. 
 
@@ -25,15 +34,6 @@ Labs use Azure.
 - Bicep/ARM, YAML (Kubernetes)  
 - KQL (Queries)  
 - Azure Portal, Defender, Sentinel
-
-  This repository demonstrates my ability to:
-
-- Design secure Azure architectures
-- Implement defense-in-depth controls
-- Validate telemetry and detection pipelines
-- Reduce attack surface using platform-native security
-- Build SOC detection and response workflows
-
 
 ## Lab Index
 
