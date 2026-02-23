@@ -8,12 +8,12 @@ https://www.linkedin.com/in/tobi-babalola001/
 ## Overview
 This repo showcases 9 AZ-500 labs demonstrating cloud security skills in Azure. Each lab folder includes:  
 - README.md: Objectives, architecture, step-by-step guides, challenges, learnings, extensions.  
-- PDF: Original lab document (e.g., PORTI LAB 1.pdf).  
-- screenshots/: Images extracted from PDF (embed in README).  
+- PDF: Original lab document (e.g., AZ500 LAB 1.pdf).  
+- Screenshots/visuals are in my Medium posts (linked in each README)
 - scripts/: Code/scripts from PDF (e.g., az commands as .ps1 files).  
 - configs/: Config files if applicable (e.g., YAML/JSON).  
 
-Labs use Azure free tier. Reproduce with az CLI/PowerShell.
+Labs use Azure. Reproduce with az CLI/PowerShell.
 
 ## Tech Stack
 - Azure CLI, PowerShell  
