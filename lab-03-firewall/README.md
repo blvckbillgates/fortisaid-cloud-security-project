@@ -1,5 +1,5 @@
-**Lab 03 — Azure Firewall Controlled Egress
- Objectives**
+**Lab 03 — Azure Firewall Controlled Egress** 
+ **Objectives**
 
 This lab implements centralized outbound inspection using Azure Firewall to restrict internet access and enforce application-layer filtering.
 
@@ -21,6 +21,7 @@ Suggested diagram:
 Workload subnet → Route Table → Azure Firewall → Internet
 
  **Step-by-Step Walkthrough**
+
 **Step 1** — Deploy Firewall
 
 ```bash
