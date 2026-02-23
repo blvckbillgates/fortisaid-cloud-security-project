@@ -111,7 +111,7 @@ Generated workload activity and adjusted query time range to allow ingestion pip
 
 Deployment required adjusting VM configuration to match regional availability.
 
-✅ Outcomes
+ **Outcomes**
 
 * Centralized telemetry successfully configured
 
