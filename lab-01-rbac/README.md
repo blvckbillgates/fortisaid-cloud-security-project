@@ -1,36 +1,99 @@
-# Lab 01: Azure RBAC Walkthrough - Users + Groups + Group-Based RBAC (Portal, PowerShell, Bash)
+**Lab 01 — Azure RBAC & Least Privilege Enforcement**
+**Objectives**
 
-## What I Built
-A proof-of-concept showing how to:  
-1. Create users and groups in Microsoft Entra ID.  
-2. Assign users to groups.  
-3. Assign an Azure RBAC role to a group (not a user).  
-4. Verify effective access at a resource group scope (FortisAid-Lab, East US).  
+This lab establishes the identity security foundation for the FortisAid environment by implementing Azure Role-Based Access Control (RBAC) and validating least-privilege access boundaries.
 
-Built to demonstrate least privilege and reduce permission sprawl by using group-based access control.
+The goals were to:
 
-## Target Architecture (What I Intended)
-Users:  
-- Emmanuel Tobi (Senior Admin)  
-- Tobi Babalola (Junior Admin)  
-- Eneattah Grace (Service Desk)  
+* Understand Azure RBAC scope hierarchy
 
-Groups:  
-- Senior Admins  
-- Junior Admins  
-- Service Desk  
+* Assign roles with minimal privileges
 
-RBAC:  
-- Assign Virtual Machine Contributor → to Service Desk group  
-- Scope: Resource Group FortisAid-Lab  
+* Validate permission inheritance and effective access
 
-## Step-by-Step Guide
-Full details in PDF – here are highlights with code.  
+* Prevent privilege escalation through overly broad role assignments
 
-### Create Users and Groups
-Portal: Entra ID > Users > New user.  
 
-PowerShell (scripts/create-users.ps1):  
-```powershell
-New-AzureADUser -DisplayName "Emmanuel Tobi" -UserPrincipalName "emmanuel.tobi@domain.com" -Password "P@ssw0rd"  
-# Repeat for others  
+**Architecture Diagram**
+
+Add architecture diagram placeholder
+
+Suggested diagram:
+User → RBAC Role Assignment → Resource Group / Resource → Access Decision
+
+**Step-by-Step Walkthrough**
+**Step 1** — Identify Access Scope
+
+Selected the appropriate scope for role assignment to avoid unnecessary privilege exposure.
+
+RBAC scope hierarchy considered:
+
+* Subscription
+
+* Resource Group
+
+* Resource
+
+Resource-level scope was preferred to enforce least privilege.
+
+**Step 2** — Assign RBAC Role
+
+Assigned a Reader role to a test identity at the resource scope.
+
+   New-AzRoleAssignment `
+  -ObjectId <user-object-id> `
+  -RoleDefinitionName Reader `
+  -Scope <resource-scope>
+
+
+**Step 3** — Validate Effective Permissions
+
+Used the Azure Portal Check access feature to confirm:
+
+* Role assignment applied correctly
+
+* No inherited elevated permissions existed
+
+* Resource access matched expected privilege level
+
+**Step 4** — Test Access Boundaries
+
+Attempted administrative actions using the assigned identity to confirm:
+
+* Read operations succeeded
+
+* Write operations were blocked
+
+* Access control enforcement behaved as expected
+
+**Challenges & Resolutions**
+Permission inheritance confusion
+
+Observed that inherited permissions from higher scopes can unintentionally elevate access.
+
+**Resolution:**
+* Used Effective Access view and limited assignments strictly to resource-level scope.
+
+ Outcomes
+
+* Least-privilege access successfully enforced
+
+* Role assignment boundaries validated
+
+* Identity exposure surface reduced
+
+ **Key Learnings**
+* RBAC scope design is critical for minimizing blast radius
+
+* Inherited permissions can silently override security intent
+
+* Resource-level assignments improve isolation and auditability
+
+ Extensions
+* Integrate Azure AD Privileged Identity Management (PIM)
+
+* Implement custom RBAC roles      
+
+* Introduce just-in-time role elevation
+
+For screenshots and growth reflections, see my Medium post [link]
