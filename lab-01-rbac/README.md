@@ -91,13 +91,6 @@ Observed that inherited permissions from higher scopes can unintentionally eleva
 
 * Resource-level assignments improve isolation and auditability
 
- Extensions
-* Integrate Azure AD Privileged Identity Management (PIM)
-
-* Implement custom RBAC roles      
-
-* Introduce just-in-time role elevation
-
 For screenshots and growth reflections, see my Medium post
 
 https://medium.com/@tobibabalola21/designing-least-privilege-access-in-azure-users-groups-group-based-rbac-fortisaid-lab-1-44888cac7ca5?postPublishedType=initial
