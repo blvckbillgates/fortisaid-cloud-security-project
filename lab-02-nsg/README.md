@@ -83,12 +83,6 @@ az network nsg rule create
 
 * Network segmentation is foundational for zero-trust architecture
 
- **Extensions**
-
-* Introduce Application Security Groups for tier abstraction
-
-* Integrate Azure Firewall for north-south inspection
-
-* Expand segmentation across multiple subnets
+ 
 
 For screenshots and growth reflections, see my Medium post [link]
