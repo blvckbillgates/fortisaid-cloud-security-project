@@ -131,14 +131,5 @@ Deployment required adjusting VM configuration to match regional availability.
 
 * Centralized logging reduces security blind spots
 
- **Extensions**
-
-* Integrate AMA telemetry with Microsoft Sentinel
-
-* Expand DCR coverage to security event logs
-
-* Implement alert rules based on performance anomalies
-
-* Add Defender for Cloud signal correlation
 
 For screenshots and growth reflections, see my Medium post [link]
