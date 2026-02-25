@@ -149,14 +149,5 @@ Validated that storage enforces subnet identity before allowing authentication.
 
 * Layered validation is essential for enterprise storage security
 
- **Extensions**
-
-* Replace Service Endpoints with Private Endpoints
-
-* Integrate storage firewall logging
-
-* Implement identity-based SMB authentication
-
-* Add Defender for Storage threat detection
 
 For screenshots and growth reflections, see my Medium post [link]
