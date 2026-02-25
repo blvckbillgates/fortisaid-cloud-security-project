@@ -144,14 +144,5 @@ Verified RBAC scope for Logic App Sentinel connector.
 
 * SOC effectiveness depends on correlation between telemetry, detection, and automation
 
- **Extensions**
-
-* Integrate Defender alerts into Sentinel correlation rules
-
-* Build anomaly-based KQL detection rules
-
-* Add automated notification workflows
-
-* Implement incident triage playbooks
 
 For screenshots and growth reflections, see my Medium post [link]
