@@ -113,14 +113,5 @@ Allowed Defender evaluation cycle to complete and refreshed inventory view.
 
 * Control-plane protection is a critical security evolution
 
- **Extensions**
-
-* Enable Defender vulnerability assessment reporting
-
-* Integrate Defender signals with Sentinel detection rules
-
-* Expand FIM coverage to application directories
-
-* Implement automated remediation for Defender recommendations
 
 For screenshots and growth reflections, see my Medium post [link]
