@@ -93,12 +93,4 @@ Validated route table association with workload subnet.
 
 * Egress control significantly reduces data exfiltration risk
 
-**Extensions**
-
-* Enable TLS inspection
-
-* Integrate Firewall Policy
-
-* Add DNAT for controlled inbound exposure
-
 For screenshots and growth reflections, see my Medium post [link]
