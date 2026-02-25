@@ -294,14 +294,5 @@ Resolution: Set Availability zones to None for the successful build.
 
 * Internal LoadBalancers support private service access patterns aligned with zero-trust segmentation
 
-**Extensions**
-
-* Replace external LB with Ingress + WAF
-
-* Add AKS network policies for east-west restriction
-
-* Integrate Defender for Containers and image scanning
-
-* Store manifests as versioned deployment assets
 
 For screenshots and growth reflections, see my Medium post [link]
