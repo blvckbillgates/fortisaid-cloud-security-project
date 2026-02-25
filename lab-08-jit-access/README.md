@@ -109,14 +109,5 @@ Confirmed JIT enforcement operates agentlessly through dynamic NSG rule manipula
 
 * Removing persistent management ports dramatically reduces brute-force risk
 
- **Extensions**
-
-* Combine JIT with PIM for privileged session elevation
-
-* Enable JIT alerting and audit logging
-
-* Integrate JIT access events with Sentinel detection rules
-
-* Expand JIT protection across additional workloads
 
 For screenshots and growth reflections, see my Medium post [link]
