@@ -6,7 +6,7 @@ This repository documents the design and implementation of security controls wit
 
 FortisAid represents a cloud-native environment handling sensitive patient and operational data, requiring strong identity protection, network isolation, workload hardening, telemetry visibility, and rapid threat detection.
 
-The goal of this portfolio is not to demonstrate isolated lab completion, but to showcase how security controls are layered together to reduce risk across an end-to-end Azure environment.
+The goal of this project is not to demonstrate isolated lab completion, but to showcase how security controls are layered together to reduce risk across an end-to-end Azure environment.
 
 Each lab reflects a realistic security engineering decision that contributes to a broader defence-in-depth strategy.
 
